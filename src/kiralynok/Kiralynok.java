@@ -20,6 +20,7 @@ public class Kiralynok {
     feladat4();
     feladat6();
     feladat9();
+
     }
 
     private void feladat4() {
