@@ -19,12 +19,13 @@ public class Kiralynok {
     public void  megoldasok(){
     feladat4();
     feladat6();
+    feladat9();
     }
 
     private void feladat4() {
           //4.feladat
         System.out.println("4.feladat: üres tábla megjelenítése:");
-        Tabla tabla = new Tabla('#');
+       
         tabla.megjelenit();
         
     }
@@ -34,5 +35,12 @@ public class Kiralynok {
         System.out.println("6.feladat: feltöltött tábla:");
         tabla.elhelyez(8);
         tabla.megjelenit();
+    }
+
+    private void feladat9() {
+       //9.feladat
+        System.out.println("9.feladat:üres sorok és oszlopok száma:");
+        System.out.println("sorok: " + tabla.uresSorokSzama());
+        System.out.println("oszlopok: "+ tabla.uresOszlopokSzama());
     }
 }
